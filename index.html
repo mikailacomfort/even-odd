@@ -5,19 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Even Odd</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
   <script src="main.js" defer></script>
 </head>
 <body>
-  <h1>Even Odd Lists</h1>
+  <h1><span class="blue">Even</span> or <span class="red">Odd </span>Magician</h1>
+  <p>Enter a word and I'll tell you if it's even or odd.</p>
   <hr/> 
 
   <form id="even-odd-form" autocomplete="off" target="_blank">
     <div> 
-      <label for="word">word</label> 
-      <input type="text" name="word" id="word"  placeholder="what's your word?" onkeyup="updateWord(this)"> 
+      <label for="word"></label> 
+      <input class="box" type="text" name="word" id="word"  placeholder="what's your word?" onkeyup="updateWord(this)"> 
     </div>
     <div>
-      <input type="button" value="Even or Odd?" onclick="handleSubmit()">
+      <input class="button" type="button" value="Even or Odd?" onclick="handleSubmit()">
     </div>
   </form>
   <section>
@@ -25,7 +29,7 @@
     <ul id="even"></ul>
   </section>
   <section>
-    <h2>Odd</h2>
+    <h2 class="odd">Odd</h2>
     <ul id="odd"></ul>
   </section>
 </body>

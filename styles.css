@@ -1,0 +1,48 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: quicksand;
+}
+
+ul {
+  list-style: none;
+  margin-right: 45px;
+}
+
+.box {
+  margin: 10px;
+}
+
+h2 {
+  color: #8d94e3;
+}
+
+.odd {
+  color:#c95f5f;
+}
+
+p {
+  font-size: 20px;
+}
+
+.blue {
+  color: #8d94e3;
+}
+
+.red {
+  color: #c95f5f;
+}
+
+.button {
+  font-size: 18px;
+  background-color: #c95f5f;
+  border: solid 2px white;
+  color: white;
+  border-radius: 3px;
+  margin-top: 15px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
